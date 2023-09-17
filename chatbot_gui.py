@@ -39,6 +39,7 @@ def create_and_insert_bot_frame(bot_response):
       font=("Arial", 7),
       bg="#ffffd0"
   ).grid(row=1, column=0, sticky="w")
+  
 
   chatWindow.insert('end', '\n ', 'tag-left')
   chatWindow.window_create('end', window=botFrame)
